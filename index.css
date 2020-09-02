@@ -36,7 +36,7 @@ header {
 }
 .link1, .link2, .link3 {
     display: inline-block;
-    width: 15%;
+    width: 12.5%;
     text-align: center;
     border-radius: 10px;
     margin: 3% 0;
@@ -46,17 +46,17 @@ header {
 
     .link1 {
         background-color: #FF764E;
-        margin-left: 13%;
+        margin-left: 15%;
     }
 
     .link2 {
         background-color: #5ED3EB;
-        margin-left: 13%;
+        margin-left: 15%;
     }
 
     .link3 {
         background-color: #FFCD69;
-        margin-left: 13%;
+        margin-left: 15%;
     }
 .header_content {
     margin: 2% 0 0;
@@ -126,7 +126,6 @@ section {
 
 footer {
     margin: 0 auto;
-    background-color: #F9E7DC;
 }
 
 .footer_content {
@@ -137,6 +136,8 @@ footer {
     display: block;
     width: 100%;
     margin-bottom: -25%;
+    position: relative;
+    z-index: -1;
 }
 
 footer .nav_links {
