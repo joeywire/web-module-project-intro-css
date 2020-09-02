@@ -11,7 +11,6 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    color: #4f4f4f;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -29,7 +28,7 @@ header {
     margin: auto;
 }
 .nav_links{
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     width: 100%;
 }
 .link1, .link2, .link3 {
@@ -60,7 +59,7 @@ header {
 .header_img {
     display: inline-block;
     width: 25%;
-    border: grey 1px solid;
+    /* border: grey 1px solid; */
 }
 
 .header_img img{
@@ -70,12 +69,16 @@ header {
 .header_text {
     display: inline-block;
     width: 66%;
-    border: grey 1px solid;
+    /* border: grey 1px solid; */
     text-align: center;
+    vertical-align: top;
+    padding: 2% 0;
 }
 
 .header_text p {
     padding: 3% 0;
+    width: 60%;
+    margin: auto;
 }
 
 section {
@@ -83,7 +86,42 @@ section {
     margin: auto;
 }
 
+.top_content {
+    background-color: #DDB9A3;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.top_content p {
+    padding: 1%;
+}
+
+.blurb {
+    width: 25%;
+    margin: 2.5% auto; 
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    /* border: 1px solid grey;  */
+}
+
+.blurb img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.blurb p span {
+    font-weight: bolder;
+}
+
 footer {
     width: 80%;
     margin: auto;
+    background-color: #F9E7DC;
+}
+
+footer nav {
+    padding: 5% 0; 
 }
